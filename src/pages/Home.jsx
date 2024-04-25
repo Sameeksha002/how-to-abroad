@@ -11,13 +11,13 @@ const Home = () => {
     <div className="">
       <header className="bg-blue-950 text-white font-medium py-2 flex justify-between items-center pl-4 text-lg">
         <h1>Welcome to our platform!</h1>
-        <nav>
-          <a href="#" className="text-white hover:underline mx-2">
+        <nav className="flex space-x-2 mr-2">
+          <p className="text-white hover:underline mx-2">
             About
-          </a>
-          <a href="#" className="text-white hover:underline mx-2">
+          </p>
+          <p className="text-white hover:underline mx-2">
             Contact
-          </a>
+          </p>
         </nav>
       </header>
       <section className="mt-8">
